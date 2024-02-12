@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:latihan_state/home.dart';
 import 'package:latihan_state/login/_index.dart';
 
 class MyApp extends StatelessWidget {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const HomeLogin(),
+      home: const Home(),
       // home: const HomeView(),
     );
   }
